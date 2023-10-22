@@ -65,7 +65,7 @@ a {
   display: inline-block;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.884);
-  background-color: rgba(97, 185, 113, 0.708);
+  background-color: rgba(27, 32, 77, 0.708);
   border-color: rgba(255, 255, 255, 0.573);
   border-style: solid;
   border-width: 1px;
@@ -114,16 +114,15 @@ a {
   background-color: $header-bg-color;
   //background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
   // Include an image in the header as a path to local image for jekyll with path image/header.jpg
-  background-image: url("../../images/header.jpg");
+  background-image: url("../../images/header.png");
   // Set the background image to cover horizontally and vertically
   background-size: cover;
   // Set the background image to be centered
   //background-position: center;
-  // Set the background image to be fixed
-  background-attachment: fixed;
+  // Set the background image to be 
   // Move the background image in the y axis
-  background-position-y: -400px;
-  background-position-x: 200px;
+  background-position-y: -300px;
+  background-position-x: 0px;
 
 
   // The header is in the background, so it should be behind the content
@@ -545,7 +544,7 @@ $content-link-active-color: #0056b3;
 
 /* Active/current link */
 .sidebar a.active {
-  background-color: #04AA6D;
+  background-color: #2d1566;
   color: white;
 }
 
